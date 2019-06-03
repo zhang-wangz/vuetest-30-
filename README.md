@@ -1,29 +1,13 @@
-# vuedemo2
+//下载下来之后直接运行
+- npm install 安装依赖
+之后 npm run serve 跑vue(cli 3.x)
+即可
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+##正文:
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 纯属听课同时的练习记录
+希望在之后的短学期里面可以写一个jdbc+springboot+vue做前端的管理界面
+vue30讲基础学习
+课程分享请私聊
