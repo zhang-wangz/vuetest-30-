@@ -10,11 +10,13 @@ Vue.config.productionTip = false
 //  创建组件
 import Home from './components/Home.vue';
 import Header from './components/Header';
+import Content from './components/Content';
 
 //配置路由
 const routes = [
   { path: '/home', component: Home },
   { path: '/Header', component: Header },
+  { path: '/Content/:aid', component: Content },//动态路由
   {path: '*', component: Home } //如果没有设置路由的话，就默认跳转home
 ]
 
@@ -29,4 +31,7 @@ const router = new VueRouter({
 new Vue({
   router,
   render: h => h(App),
+  data: {
+    eventHub: new Vue()
+}
 }).$mount('#app')
